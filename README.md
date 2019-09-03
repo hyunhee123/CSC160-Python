@@ -5,7 +5,7 @@ handle = open(name, 'r')
 
 counts = dict()
 for line in handle:
-    words = lin.split()
+    words = line.split()
     for word in words:
         counts[word] = counts.get(word,0) + 1
         
