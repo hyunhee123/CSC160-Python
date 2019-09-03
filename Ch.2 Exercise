@@ -1,0 +1,4 @@
+payhours = input('How many hours did you work')
+payrate = 2.75
+payhoursNo = int(payhours)
+print(payrate * payhoursNo)
