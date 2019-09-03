@@ -1,5 +1,8 @@
 # CSC160
-Practice
+
+# Practice
+
+
 name = input('Enter file:')
 handle = open(name, 'r')
 
