@@ -1,0 +1,39 @@
+//
+no_parens = 2 ** 3 ** 5
+left_parens = (2 ** 3) ** 5
+right_parens = 2 ** (3 ** 5)
+print(no_parens)
+print(left_parens)
+print(right_parens)
+//
+
+//
+decimal = 1.0
+whole = 2
+the_sum = decimal + whole
+print(the_sum, type(the_sum))
+//
+
+//
+first_name = input("What is your First Name?\n")
+last_name = input("What is your Last Name?\n")
+normal_name = first_name + " " + last_name
+reversed_name = last_name + ", " + first_name
+print(normal_name)
+print(reversed_name)
+//
+
+//
+sh = input("Enter Hours: \n")
+sr = input("Enter Rate: \n")
+fh = float(sh)
+fr = float(sr)
+
+if fh > 40:
+    reg = fr * fh
+    otp = (fh - 40.0) * (fr * 0.5)
+    xp = reg + otp
+else:
+    xp = fh * fr
+print("Your pay for this period is $" + str(xp))
+//

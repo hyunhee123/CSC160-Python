@@ -1,6 +1,0 @@
-no_parens = 2 ** 3 ** 5
-left_parens = (2 ** 3) ** 5
-right_parens = 2 ** (3 ** 5)
-print(no_parens)
-print(left_parens)
-print(right_parens)
